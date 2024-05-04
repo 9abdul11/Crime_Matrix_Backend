@@ -1,0 +1,247 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.left-container {
+    color: white;
+    background-color:#467DC6;
+}
+.homesvg{
+    margin-right: 5px;
+    align-self: center;
+ }
+ 
+ .adminpanel{
+    background: linear-gradient(#96c9f2,white);
+    display: flex;
+    height: 83px;
+    flex-direction: row-reverse;
+    
+}
+.adminpanel p{
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: 500;
+    font-size: large;
+    padding-right: 10px;
+}
+.text-decoration-none{
+    padding-left: -20px
+}
+.adminpanel .header a{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 1px;
+    color: #2b498d;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left-container a {
+    padding: 20px 0px 20px 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(221, 221, 221);
+    display: block;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.right-container {
+    height: 100vh;
+    padding: 10px;
+}
+.fas{
+    margin-right: 10px;
+    margin-top: 6px;
+    font-size: 13px;
+}
+.col-md-9 {
+    padding-left: 60px;
+}
+.crimebtn:hover{
+    border-bottom: 2px solid #b5b9be;
+    
+}
+#left{
+        background-color: #000000;
+        background-size: cover;
+        padding-top: 40px;
+        width: 12%;
+}
+.right-side_content{
+    margin-left: 13%;
+    width:100vw;
+}
+
+.btn-primary{
+    background-color: #0672ff;
+    color: white;
+    border: 0px;
+}
+.logo {
+    text-align: start;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-left: 30%;
+}
+.heading{
+    
+    padding:20px;
+    text-align: left;
+    margin-bottom: 30px;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 5px rgb(180, 180, 180);
+}
+.mycontainer{
+    margin-bottom: 50px;
+    width: 100%;
+    position: relative;
+    left: -160px;
+}
+.right-container {
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+
+
+.row a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.left {
+    background-color: navy;
+    height: 100vh;
+
+}
+
+.left ul li {
+    list-style-type: none;
+    color: white;
+}
+
+@media (min-width:768px) {
+    .mobile-logo{
+        display:none;
+    }
+
+    .left-container {
+        height: auto;
+        background-color: #111;
+        padding-top: 20px;
+        color: white;
+        position: fixed;
+        width: 25%;
+        height: 100vh;
+    }
+    .right-side_content{
+        margin-left: 25%;
+        width: 75%;
+    }
+    
+}
+@media (max-width:767px) {
+    .desktop-logo{
+        display:none;
+    }
+
+
+}
+
+.map{
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+}
+.form{
+    margin-top: 0px;
+}
+
+form label{
+    font-weight: bolder;
+    font-size: larger;
+}
+.crimebtn:hover{
+    border-bottom: 2px solid rgb(0, 221, 255);
+    color: rgb(0, 221, 255);
+    
+}
+.profile{
+    width: 35px;
+    margin-right: 3px;
+}
+.crimebtn.active{
+    border-bottom: 2px solid rgb(0, 221, 255);
+    color: rgb(0, 221, 255);
+    /* background-color: rgb(15, 255, 163);
+    width: 100%;
+    color: #000000;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius:50px; */
+}
+.logout{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    background-color: rgb(2, 175, 255);
+    font-size: small;
+    padding: 6px 10px 6px 10px;
+    border-radius: 5px;
+    margin-right: -10px;
+}
+.logout:hover{
+    border: 1px solid rgb(2, 175, 255);
+    background: transparent;
+}
+.username{
+    font-size: small;
+    color: rgb(2, 179, 243);
+}
+.useremail{
+    font-size: small;
+    color: rgb(2, 179, 243);
+}
+form input{
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid  rgb(159, 157, 157);
+    margin-bottom: 10px;
+}
+form select{
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.localtionlabel{
+    margin-top: 10px;
+}
+form select:focus{
+    border: 1px solid rgb(159, 157, 157);
+}
+form input:focus{
+    border: none;
+}
